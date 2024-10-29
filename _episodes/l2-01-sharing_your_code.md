@@ -127,7 +127,7 @@ control the visibility of a repository.
 > - [The OpenScience Project](http://openscience.org/about-openscience/)
 {: .callout}
 
-[turing-way]: https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science#introduction
+[turing-way]: https://www.turing.ac.uk/research/research-projects/turing-way
 
 ## Things to include in your project
 
