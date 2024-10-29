@@ -1,7 +1,7 @@
 ---
 title: "Using GitHub Issues"
 teaching: 15
-exercises: 10
+exercises: 5
 questions:
 - "How can I use GitHub issues to manage a TODO list for my project?"
 objectives:

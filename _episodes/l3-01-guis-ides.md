@@ -1,7 +1,7 @@
 ---
 title: "Using GUIs and IDEs"
-teaching: 20 # TODO
-exercises: 20 # TODO
+teaching: 20
+exercises: 10
 questions:
 - "What other ways can I interact with Git other than at the command line?"
 - "What tools are available for using Git?"
