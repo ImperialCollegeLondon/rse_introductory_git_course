@@ -316,7 +316,7 @@ the message you specified.
 ## Staging and Committing
 
 For our first commit we saw that this is a two step process - first we use `git
-add` then `git commit`. This is an important pattern used by Git. To understand
+stage` then `git commit`. This is an important pattern used by Git. To understand
 this in more detail it's useful to know that git has three 'areas'.
 
 * The Working Directory (or Working Tree)
