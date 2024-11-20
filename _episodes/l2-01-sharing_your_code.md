@@ -62,7 +62,7 @@ Set up your free github account:
 Create a Personal Access Token (PAT):
 
 1. In order to access GitHub from the command line, you will need a PAT.
-2. Follow the instructions [here][pat-instructions] to generate one. Ensure that "repo" is ticked.
+2. Follow the instructions [here][pat-instructions] to generate one. Ensure that "repo" and "workflow" are ticked.
 3. Keep the PAT safe - once you navigate away from the page you won't be able to view it again.
    If you lose it, you can always regenerate it.
 
