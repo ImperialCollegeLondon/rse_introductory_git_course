@@ -53,7 +53,7 @@ what changes. The `--global` part of the command sets this information for
 any projects on which you might work on this computer. Therefore you only need
 to perform the above commands once for each new computer Git is installed on.
 
-[setup instructions]: {% link setup.md %}
+[setup instructions]: {{ page.root }}{% link setup.md %}
 
 > ## The Command Line Interface
 >
