@@ -19,7 +19,7 @@ introduces more features that make it a productive collaborative environment.
 
 This course (particularly the first half) is closely based on this [Code Refinery lesson][code-refinery].
 
-[intermediate-course]: https://imperialcollegelondon.github.io/intermediate_grad_school_git_course/
+[intermediate-course]: https://imperialcollegelondon.github.io/rse_further_git_course/
 [code-refinery]: https://coderefinery.github.io/git-intro/
 
 ## Syllabus
