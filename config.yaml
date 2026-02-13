@@ -67,7 +67,7 @@ contact: "rse-team@imperial.ac.uk"
 
 # Order of episodes in your lesson
 episodes:
-  - 00-course_overview.md
+  - 00-course-overview.md
   - l1-01-why-use-vcs.md
   - l1-02-committing-history.md
   - l1-03-break.md
