@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
@@ -7,40 +8,40 @@
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
+# rcs: Research Computing Services
 # incubator: The Carpentries Incubator
-# 
-# This option supports custom types so lessons can be branded
-# and themed with your own logo and alt-text (see `carpentry_description`)
-# See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
-carpentry: 'incubator'
+# Note that you can also use a custom carpentry type. For more info,
+# see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
+carpentry: "rcs"
 
-# Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+# Custom carpentry description
+# This will be used as the alt text for the logo
+# carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: "Introduction to using Git and GitHub for software development"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2019-12-11
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: "software, data, lesson, The Carpentries"
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: "stable"
 
-# License of the lesson
-license: 'CC-BY 4.0'
+# License of the lesson materials (recommended CC-BY 4.0)
+license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: "https://github.com/SaranjeetKaur/rse_introductory_git_course"
 
 # Default branch of your lesson
-branch: 'main'
+branch: "main"
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: "rse-team@imperial.ac.uk"
 
 # Navigation ------------------------------------------------
 #
@@ -65,21 +66,31 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+  - 00-course_overview.md
+  - l1-01-why-use-vcs.md
+  - l1-02-committing-history.md
+  - l1-03-break.md
+  - l2-01-sharing_your_code.md
+  - l2-02-remote_repositories.md
+  - l2-03-break.md
+  - l3-01-issues.md
+  - l3-02-guis-ides.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-
+carpentry_description: Lesson Description
+url: "https://SaranjeetKaur.github.io/rse_introductory_git_course"
+lang: en
