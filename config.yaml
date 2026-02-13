@@ -92,5 +92,5 @@ profiles:
 # sandpaper and varnish versions) should live
 
 carpentry_description: Lesson Description
-url: "https://github.com/ImperialCollegeLondon/rse_introductory_git_course"
+url: "https://imperialcollegelondon.github.io/rse_introductory_git_course/"
 lang: en
