@@ -108,6 +108,8 @@ output similar to the below:
 git version 2.40.0
 ```
 
+:::::::::::::::::::::::::::::::::::::
+
 ## Optional additional setup
 
 ### GitHub
