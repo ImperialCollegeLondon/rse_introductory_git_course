@@ -8,7 +8,7 @@ Graduate School Course of the above title.
 Run `docker compose up` to start the development server. After a few moments the site
 will be accessible at <http://127.0.0.1:4321>.
 
-## About
+## About the course
 
 This course was developed by the Research Computing Service (RCS) of Imperial
 College, in particular by the Research Software Engineering (RSE) team. The RSE
