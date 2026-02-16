@@ -74,8 +74,8 @@ course][intermediate-branching].)
 
 ## Getting started with GitKraken
 
-Firstly, you will need to download and install GitKraken, which can be obtained
-[here](https://www.gitkraken.com/download).
+Firstly, you will need to [download GitKraken](https://www.gitkraken.com/download) and
+install it.
 
 Next you need to create a GitKraken account, the main purpose of which is to link the
 GitKraken app with your GitHub account, so that you can make use of its GitHub
