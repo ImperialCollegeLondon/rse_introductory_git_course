@@ -67,15 +67,15 @@ contact: "rse-team@imperial.ac.uk"
 
 # Order of episodes in your lesson
 episodes:
-  - 00-course-overview.md
-  - l1-01-why-use-vcs.md
-  - l1-02-committing-history.md
-  - l1-03-break.md
-  - l2-01-sharing_your_code.md
-  - l2-02-remote_repositories.md
-  - l2-03-break.md
-  - l3-01-issues.md
-  - l3-02-guis-ides.md
+  - 00-course_overview.md
+  - 01-why_use_vcs.md
+  - 02-committing_history.md
+  - 03-break.md
+  - 04-sharing_your_code.md
+  - 05-remote_repositories.md
+  - 06-break.md
+  - 07-issues.md
+  - 08-guis_ides.md
 
 # Information for Learners
 learners:
