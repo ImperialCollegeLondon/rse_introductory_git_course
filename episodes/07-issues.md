@@ -29,7 +29,7 @@ exercises: 5
 
 The following figure shows some of the issues open in a certain repository. The labels tell us there are a couple of bug reports, a couple of issues related to the performance of the software and several ones that are simple enough to be tackled by novice people. Most of them have some discussion going on.
 
- ![Example of GitHub issues]({{ site.baseurl }}/fig/issues1.png "Example of GitHub issues"){:class="img-responsive"}
+ ![Example of GitHub issues](fig/issues1.png "Example of GitHub issues")
 
 ## Creating GitHub issues
 
@@ -44,7 +44,7 @@ Follow the information above to create two new issues in your example repository
 :::::::::::::::::::::::: solution
 
 You have created two new issues and your issues page should look something like this:
-![Two newly created issues]({{ site.baseurl }}/fig/issues2.png "Two newly created issues")
+![Two newly created issues](fig/issues2.png "Two newly created issues")
 Notice the labels have been added next to the issue title, and the assignees' profile pictures are visible too.
 
 :::::::::::::::::::::::::::::::::
@@ -76,7 +76,7 @@ Try creating a new issue which contains a task list. To create a task list in th
 :::::::::::::::::::::::: solution
 
 You should now have a third issue which contains a task list which references the two issues you created earlier.
-![Creating a task list]({{ site.baseurl }}/fig/issues3.png "Creating a task list")
+![Creating a task list](fig/issues3.png "Creating a task list")
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -114,7 +114,7 @@ Open one of the issues you created earlier. Let's say you have addressed the con
 :::::::::::::::::::::::: solution
 
 In your task list issue you should find that one of the referenced issues now has a tick next to it, indicating that it is closed.
-![Task list with a closed issue]({{ site.baseurl }}/fig/issues4.png "Task list with a closed issue")
+![Task list with a closed issue](fig/issues4.png "Task list with a closed issue")
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::

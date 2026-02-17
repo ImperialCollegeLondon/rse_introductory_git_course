@@ -119,7 +119,7 @@ cd example
 - You can find some information on the repository using the commands already
   discussed, like `git log`.
 
-![Effect of cloning a remote repository]({{ site.baseurl }}/fig/clone.png "Effect of cloning a remote repository"){:class="img-responsive"}
+![Effect of cloning a remote repository](fig/clone.png "Effect of cloning a remote repository")
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -128,7 +128,7 @@ cd example
 - Its basic use is to synchronize **any committed changes** in your current
  branch to its upstream branch: `git push`.
 - Changes in the staging area will not be synchronized.
-![Effect of pushing a branch]({{ site.baseurl }}/fig/push.png "Effect of pushing a branch"){:class="img-responsive"}
+![Effect of pushing a branch](fig/push.png "Effect of pushing a branch")
 - If the upstream branch has changes that you do not have in the local branch, the
  command will fail, requesting you to `pull` those changes first (see below).
 
@@ -167,7 +167,7 @@ git push
 - It's best to make sure your repository is in a clean state with no staged or
   unstaged changes - so, all changes committed.
 
-![Effect of pulling remote changes]({{ site.baseurl }}/fig/pull.png "Effect of pulling remote changes"){:class="img-responsive"}
+![Effect of pulling remote changes](fig/pull.png "Effect of pulling remote changes")
 
 :::::::::::::::::::::::::::::::::::: callout
 
