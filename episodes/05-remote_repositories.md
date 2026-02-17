@@ -128,9 +128,10 @@ cd example
 - Its basic use is to synchronize **any committed changes** in your current
  branch to its upstream branch: `git push`.
 - Changes in the staging area will not be synchronized.
-![Effect of pushing a branch](fig/push.png){alt='Effect of pushing a branch'}
 - If the upstream branch has changes that you do not have in the local branch, the
  command will fail, requesting you to `pull` those changes first (see below).
+
+![Effect of pushing a branch](fig/push.png){alt='Effect of pushing a branch'}
 
 :::::::::::::::::::::::::::::::::::::: challenge
 
