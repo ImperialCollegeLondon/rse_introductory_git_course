@@ -154,8 +154,9 @@ The path you see in the output will vary depending on your operating system.
 A branch is a specific version of the state and history of the work in the repo.
 Traditionally, the default branch name whenever you `init` a repository was `master`.
 However, the awareness of the online community has improved lately and some tools,
-like GitHub, use now `main` as the default name instead. You can read the rationale
-in [this link](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main).
+like GitHub, use now `main` as the default name instead. You can read [the
+rationale](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+for further information.
 
 If you are using `git` version 2.28 or higher (you can find the version you are
 using with `git --version`) you can change the default branch name for all new
