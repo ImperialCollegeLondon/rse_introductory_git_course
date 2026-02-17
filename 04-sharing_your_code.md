@@ -36,14 +36,14 @@ adding on top tools to ease the collaborative development of the code:
 ## GitHub: Why GitHub?
 
 There are several widely used repository hosting services using Git, such as
-[GitLab](https://about.gitlab.com) or
-[Bitbucket](https://bitbucket.org/product). In this course we will use
-[GitHub](https://github.com) because:
+[GitLab](https://about.gitlab.com) or [Bitbucket](https://bitbucket.org/product).
+In this course we will use [GitHub](https://github.com) because:
 
 - It is very easy to use and set up.
 - It is, arguably, the most used hosting service of them all.
-- Imperial has a GitHub Organisation any Imperial staff or student can join. You don't
-  need to join for this course but instructions to do so can be found [here][ic-github].
+- Imperial has a GitHub Organisation any Imperial student or member of staff can join.
+  You don't need to do so for this course, but [instructions on how to join][ic-github]
+  are available.
 
 [ic-github]: https://servicemgt.imperial.ac.uk/ask?id=kb_article_view&sysparm_article=KB0012428
 
@@ -61,11 +61,13 @@ Set up your free github account:
 Create a Personal Access Token (PAT):
 
 1. In order to access GitHub from the command line, you will need a PAT.
-2. Follow the instructions [here][pat-instructions] to generate one. Ensure that "repo" and "workflow" are ticked.
-3. Keep the PAT safe - once you navigate away from the page you won't be able to view it again.
-   If you lose it, you can always regenerate it.
+2. Follow the [instructions to generate one][pat-instructions]. Ensure that "repo" and
+   "workflow" are ticked.
+3. Keep the PAT safe - once you navigate away from the page you won't be able to view it
+   again. If you lose it, you can always regenerate it.
 
-If you're familiar with SSH keys, you can follow [these instructions][ssh-instructions] to use that alternative authentication method.
+If you're familiar with SSH keys, you can follow [these instructions][ssh-instructions]
+to use that alternative authentication method instead.
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
