@@ -15,5 +15,5 @@
 "episodes/08-guis_ides.md" "c5520f2c1880ba88463f5065361f2608" "site/built/08-guis_ides.md" "2026-02-17"
 "instructors/instructor-notes.md" "4871b9b5f741f3056571289554d27815" "site/built/instructor-notes.md" "2026-02-13"
 "learners/reference.md" "376f0fef94781c05cf42a1ca28cf48ae" "site/built/reference.md" "2026-02-13"
-"learners/setup.md" "6e4b947faa59026095506c7df2c05794" "site/built/setup.md" "2026-02-17"
+"learners/setup.md" "0c27765daff8999cc58a4b9cb475abae" "site/built/setup.md" "2026-02-19"
 "profiles/learner-profiles.md" "5fe5bf7537072422b91ed393ada03f9a" "site/built/learner-profiles.md" "2026-02-13"
