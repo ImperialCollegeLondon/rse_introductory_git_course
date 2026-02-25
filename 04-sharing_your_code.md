@@ -267,7 +267,9 @@ GitHub. Just follow these steps:
 ::::::::::::::::::::::::::::::::: solution
 
 Your repository is now ready and you should see something similar to this:
-![Screenshot of the new repository in GitHub]({{ site.baseurl }}/fig/new_repo.jpg "Screenshot of the new repository in GitHub")
+
+![Screenshot of the new repository in GitHub](fig/new_repo.jpg){alt='Screenshot of the new repository in GitHub'}
+
 It tells you there is only 1 commit, 1 branch and 1 contributor, the type
 of licence you have chosen and also that there are two files: LICENSE and
 README.md, which is also rendered immediately below.
