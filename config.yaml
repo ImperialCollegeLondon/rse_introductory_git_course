@@ -41,7 +41,7 @@ source: "https://github.com/ImperialCollegeLondon/rse_introductory_git_course"
 branch: "main"
 
 # Who to contact if there are any issues
-contact: "rse-team@imperial.ac.uk"
+contact: "ict-rse-team@imperial.ac.uk"
 
 # Navigation ------------------------------------------------
 #
