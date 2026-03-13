@@ -27,14 +27,14 @@ exercises: 20
 
 ## First Things First
 
-You should have already completed the
-<!-- markdownlint-disable -->
-[setup instructions][lesson-setup]
-<!-- markdownlint-restore --> for this workshop and have Git installed. Launch a command
-line environment (on Windows launch "Git Bash" from the Start menu; on Linux or macOS
-start a new Terminal). We will use this command line interface throughout these
-materials. We focus on teaching Git with the command line as we believe this is the most
-thorough and portable way to communicate the underlying concepts.
+You should have already completed the [setup instructions][lesson-setup] for this
+workshop and have Git installed. Launch a command line environment (on Windows launch
+"Git Bash" from the Start menu; on Linux or macOS start a new Terminal). We will use
+this command line interface throughout these materials. We focus on teaching Git with
+the command line as we believe this is the most thorough and portable way to
+communicate the underlying concepts.
+
+[lesson-setup]: https://imperialcollegelondon.github.io/rse_introductory_git_course/index.html#downloading-the-zip-file
 
 You can use the command line to interact with Git but there is still some extra
 information you must provide before it is ready to use. Enter the following commands,
