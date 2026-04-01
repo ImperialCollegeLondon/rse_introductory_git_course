@@ -66,11 +66,10 @@ You wouldn't want to try to visualise this in your terminal, any more than you w
 Tube map.
 
 (If you're wondering how a repository's history can end up looking so complicated, it's
-because of a feature we aren't covering in this course in detail called branching. For
-those who are interested, [it is covered in the intermediate-level Git
-course][intermediate-branching].)
+because of a feature we aren't covering in this course in detail called *branching*. For
+those who are interested, [it is covered in the further Git course][further-branching].)
 
-[intermediate-branching]: https://imperialcollegelondon.github.io/rse_further_git_course/02-branching_merging/index.html
+[further-branching]: https://imperialcollegelondon.github.io/rse_further_git_course/02-branching_merging/index.html
 
 ## Getting started with GitKraken
 
@@ -122,7 +121,7 @@ most of the features in this window, namely:
   author, which files were changed etc.)
 
 (Don't worry about the other buttons on the left-hand side for now. They aren't covered
-in this course, but are in [the intermediate-level Git course][intermediate-course].)
+in this course, but are in [the further Git course][further-course].)
 
 Now click on "instructions.md" in GitKraken (under where it says "1 modified"). You
 should now be able to see what changes were made to the file in the the last commit:
@@ -146,7 +145,7 @@ remind yourself what changes you made.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[intermediate-course]: https://imperialcollegelondon.github.io/rse_further_git_course/
+[further-course]: https://imperialcollegelondon.github.io/rse_further_git_course/
 
 ## Modifying your repository
 
