@@ -108,7 +108,7 @@ Now that Git is ready to use let's see how to start using it with a new
 project. In Git terminology a project is called a repository (frequently
 shortened to "repo").
 
-For this workshop you were provided with a [zip file](../code/recipe.zip). If
+For this workshop you were provided with a [zip file](files/recipe.zip). If
 you have not already done so, please download it and **place it in your home
 directory**. The zip file contains a directory called `recipe` which in turn
 contains 2 files - `instructions.md` and `ingredients.md`. This is the project

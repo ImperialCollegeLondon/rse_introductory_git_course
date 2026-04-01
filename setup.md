@@ -10,8 +10,8 @@ file and, if not already available, install Git.
 ## Downloading the Zip File
 
 The files we will be working with during the course are available in a
-[zip archive](code/recipe.zip). Please download it and **save it in your home directory,
-but do not extract it yet**.
+[zip archive](episodes/files/recipe.zip). Please download it and **save it in your home
+directory, but do not extract it yet**.
 
 ## Install Git
 
