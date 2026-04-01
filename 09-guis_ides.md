@@ -69,7 +69,7 @@ Tube map.
 because of a feature we aren't covering in this course in detail called *branching*. For
 those who are interested, [it is covered in the further Git course][further-branching].)
 
-[further-branching]: https://imperialcollegelondon.github.io/rse_further_git_course/02-branching_merging/index.html
+[further-branching]: https://imperialcollegelondon.github.io/rse_further_git_course/03-branching_merging.html
 
 ## Getting started with GitKraken
 
