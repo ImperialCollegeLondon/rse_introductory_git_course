@@ -180,8 +180,7 @@ merge both. This merging might be a smooth, transparent process - Git is pretty 
 when it comes to merging branches - but might also result in **conflicts** that need
 to be resolved before proceeding.
 
-This is part of the scope of the intermediate Git and GitHub course that you can find
-in <https://imperialcollegelondon.github.io/rse_further_git_course/>
+This is part of the scope of the [further Git and GitHub course](https://imperialcollegelondon.github.io/rse_further_git_course/).
 
 ::::::::::::::::::::::::::::::::::::::::::::::
 

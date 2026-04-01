@@ -187,7 +187,7 @@ Ultimately, you can simply create a separate branch called `main` and use that o
 your default branch rather than `master`, which you can then delete.
 
 We will use `main` as the default branch name throughout the workshop. Branches will
-be covered in detail in [our intermediate Git course](https://imperialcollegelondon.github.io/rse_further_git_course/).
+be covered in detail in [our further Git course](https://imperialcollegelondon.github.io/rse_further_git_course/).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
