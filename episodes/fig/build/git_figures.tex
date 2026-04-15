@@ -3,8 +3,7 @@
 \usepackage{subcaption}
 \usepackage{gitdags}
 \usetikzlibrary{arrows,positioning}
-%% \usegdlibrary{trees}
-\tikzgraphsset{%
+\tikzgraphsset{
   nudge/.style={/tikz/shift={#1}},
   nudge down1/.style={nudge=(270:#1)},
   nudge down1/.default=1.1,
@@ -16,7 +15,6 @@
 \begin{figure}
   \begin{tikzpicture}
     \tikzstyle{node}=[align=center, font=\large, draw, rounded corners]
-    %% \tikzstyle{command}=[node, fill=blue!50]
     \tikzstyle{command}=[node, fill=solarized-blue!30]
     \tikzstyle{area}=[node, fill=solarized-green!30]
     \tikzstyle{label}=[midway, align=center, solarized-blue]
