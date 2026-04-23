@@ -1,5 +1,5 @@
-git_areas.png: git_figures.pdf
+git_areas.png: git_areas.pdf
 	magick -density 192 $^ $@
 
-git_figures.pdf: git_figures.tex
+git_areas.pdf: git_areas.tex
 	pdflatex $^
