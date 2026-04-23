@@ -1,7 +1,11 @@
-git_areas: ../git_areas.png
+all: clone.png push.png pull.png git_areas.png
 
-../git_areas.png: git_areas.pdf
+../%.png: %.pdf
 	magick -density 192 $^ $@
 
-git_areas.pdf: git_areas.tex
+%.pdf: %.tex
 	pdflatex $^
+	rm $*.aux $*.log
+
+clean:
+	rm *.pdf *.png
