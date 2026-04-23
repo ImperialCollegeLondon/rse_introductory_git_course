@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage{subcaption}
+\usepackage{gitdags}
+\usepackage[papersize={4.2in, 2.5in}, margin={0.1in, 0.1in}]{geometry}
+\usetikzlibrary{arrows,positioning}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{figure}
+  \begin{tikzpicture}
+    \tikzstyle{node}=[align=center, font=\large, draw, rounded corners]
+    \tikzstyle{command}=[node, fill=solarized-blue!30]
+    \tikzstyle{area}=[node, fill=solarized-green!30]
+    \tikzstyle{label}=[midway, align=center, solarized-blue]
+    \tikzstyle{smalllabel}=[label, black, font=\footnotesize]
+    \tikzstyle{arrow}=[->, >=stealth, thick]
+
+    \node[area] (wd) at (0, 0) {Working \\Directory};
+    \node[area, right = 6em of wd] (sa) {Staging \\Area};
+    \node[area, right = 6em of sa] (r) {Repository};
+
+    \draw[arrow] (wd) -- (sa)
+    node[above, label] (add) {git stage}
+    node[below, smalllabel] {copies files to};
+    \draw[arrow] (sa) -- (r)
+    node[above, label] {git commit}
+    node[below, smalllabel] (moves) {moves files to};
+
+    \node[command, above = 6em of add] (status) {git status};
+    \draw[arrow] (status) -- (wd)
+    node[above, sloped, smalllabel] {shows whats in};
+    \draw[arrow] (status) -- (sa)
+    node[above, sloped, smalllabel] {shows whats in};
+
+    \node[node, above = 4em of r] (history) {Commit \\History};
+    \draw[arrow] (r) -- (history)
+    node[smalllabel, right] {contains};
+
+    \node[command, left = 4em of history] (log) {git log};
+    \draw[arrow] (log) -- (history)
+    node[smalllabel, above] {shows};
+
+    \node[command, below right= 3em and -4em of moves] (init) {git init};
+    \draw[arrow] (init) -- (sa)
+    node[smalllabel, below, sloped] {creates};
+    \draw[arrow] (init) -- (r)
+    node[smalllabel, below, sloped] {creates};
+  \end{tikzpicture}
+\end{figure}
+\end{titlepage}
+
+\end{document}
