@@ -1,11 +1,8 @@
-.PHONY: clone push pull git_areas all
+IMAGES := clone push pull git_areas
 
-clone: ../clone.png
-push: ../push.png
-pull: ../pull.png
-git_areas: ../git_areas.png
+all: $(IMAGES)
 
-all: clone push pull git_areas
+$(IMAGES): %: ../%.png
 
 ../%.png: %.pdf
 	magick -density 192 $< $@
