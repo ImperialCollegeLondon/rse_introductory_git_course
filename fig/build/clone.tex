@@ -1,0 +1,62 @@
+\documentclass{article}
+
+\usepackage{subcaption}
+\usepackage{gitdags}
+\usepackage[papersize={2.8in, 3.8in}, margin={0.1in, 0.1in}]{geometry}
+\usetikzlibrary{arrows,positioning}
+\tikzgraphsset{
+  nudge/.style={/tikz/shift={#1}},
+  nudge down1/.style={nudge=(270:#1)},
+  nudge down1/.default=1.1,
+  nudge down2/.style={nudge=(270:#1)},
+  nudge down2/.default=2.1
+}
+\begin{document}
+
+\begin{figure}
+  \begin{tikzpicture}
+    \tikzstyle{container}=[rectangle, draw=orange, rounded corners]
+    \tikzstyle{node}=[align=center, draw, rounded corners]
+    \tikzstyle{arrow}=[->, >=stealth, thick]
+    \tikzstyle{smalllabel}=[label, @@COLOUR_VAR@@, font=\footnotesize]
+
+    \node (remote_container) [container, minimum width=18em, minimum height=9em] {};
+    \gitDAG[grow right sep = 3em] {
+      c1 [below left=-3em and -6em of remote_container]
+      -- c2 [below left=-3em and -6em of remote_container]
+      -- c3 [below left=-3em and -6em of remote_container]
+    };
+    \gitbranch {main} {above=of c3} {c3}
+    \node[node, above=3em of c1, @@COLOUR_VAR@@] (remote) {REMOTE (origin)};
+
+
+    \node (local_container) [
+      container, minimum width=18em, minimum height=11em, below=6em of remote_container
+    ] {};
+    \gitDAG[grow right sep = 3em]{
+      c1 [below left=-2.5em and -6em of local_container]
+      -- c2 [below left=-2.5em and -6em of local_container]
+      -- c3 [below left=-2.5em and -6em of local_container]
+    };
+    \gitbranch {main} {above=of c3} {c3}
+    \gitHEAD {above=of main} {main}
+    \gitbranch {origin/main} {above left=3em and -1em of c2} {c3}
+
+    \draw[DAGrefedge] (origin/main)
+    -- node[smalllabel, above, sloped, anchor=south] {tracks} (main);
+    \node[node, above left=6em and -0.5em of c1, @@COLOUR_VAR@@] (local) {LOCAL};
+
+    \draw[arrow, draw=@@COLOUR_VAR@@] ([shift={(-3.5em,0)}]remote_container.south)
+    -- node[anchor=east, @@COLOUR_VAR@@] {\texttt{git clone}}
+    node[anchor=west, text width=13em, align=left, @@COLOUR_VAR@@] {
+      \setlength{\leftmargini}{1.5em}
+      \begin{itemize}
+        \item Copies the remote repo
+        \item Creates the main branch tracking origin/main
+      \end{itemize}
+    } ([shift={(-3.5em,0)}]local_container.north);
+
+  \end{tikzpicture}
+\end{figure}
+
+\end{document}
