@@ -1,7 +1,14 @@
-git_areas: ../git_areas.png
+IMAGES := clone push pull git_areas
 
-../git_areas.png: git_areas.pdf
-	magick -density 192 $^ $@
+all: $(IMAGES)
 
-git_areas.pdf: git_areas.tex
-	pdflatex $^
+$(IMAGES): %: ../%.png ../%-dark.png
+
+../%.png: %.pdf
+	magick -density 192 $< $@
+
+%.pdf: %.tex
+	sed 's/@@COLOUR_VAR@@/black/g' $< | pdflatex -jobname=$*
+
+%-dark.pdf: %.tex
+	sed 's/@@COLOUR_VAR@@/white/g' $< | pdflatex -jobname=$*-dark
