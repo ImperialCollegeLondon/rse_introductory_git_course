@@ -14,8 +14,8 @@
     \tikzstyle{command}=[node, fill=solarized-blue!30]
     \tikzstyle{area}=[node, fill=solarized-green!30]
     \tikzstyle{label}=[midway, align=center, solarized-blue]
-    \tikzstyle{smalllabel}=[label, black, font=\footnotesize]
-    \tikzstyle{arrow}=[->, >=stealth, thick]
+    \tikzstyle{smalllabel}=[label, @@COLOUR_VAR@@, font=\footnotesize]
+    \tikzstyle{arrow}=[->, >=stealth, thick, @@COLOUR_VAR@@]
 
     \node[area] (wd) at (0, 0) {Working \\Directory};
     \node[area, right = 6em of wd] (sa) {Staging \\Area};
@@ -34,7 +34,7 @@
     \draw[arrow] (status) -- (sa)
     node[above, sloped, smalllabel] {shows whats in};
 
-    \node[node, above = 4em of r] (history) {Commit \\History};
+    \node[node, above = 4em of r, @@COLOUR_VAR@@] (history) {Commit \\History};
     \draw[arrow] (r) -- (history)
     node[smalllabel, right] {contains};
 

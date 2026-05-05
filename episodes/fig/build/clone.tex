@@ -18,7 +18,7 @@
     \tikzstyle{container}=[rectangle, draw=orange, rounded corners]
     \tikzstyle{node}=[align=center, draw, rounded corners]
     \tikzstyle{arrow}=[->, >=stealth, thick]
-    \tikzstyle{smalllabel}=[label, black, font=\footnotesize]
+    \tikzstyle{smalllabel}=[label, @@COLOUR_VAR@@, font=\footnotesize]
 
     \node (remote_container) [container, minimum width=18em, minimum height=9em] {};
     \gitDAG[grow right sep = 3em] {
@@ -27,7 +27,7 @@
       -- c3 [below left=-3em and -6em of remote_container]
     };
     \gitbranch {main} {above=of c3} {c3}
-    \node[node, above=3em of c1] (remote) {REMOTE (origin)};
+    \node[node, above=3em of c1, @@COLOUR_VAR@@] (remote) {REMOTE (origin)};
 
 
     \node (local_container) [
@@ -44,11 +44,11 @@
 
     \draw[DAGrefedge] (origin/main)
     -- node[smalllabel, above, sloped, anchor=south] {tracks} (main);
-    \node[node, above left=6em and -0.5em of c1] (local) {LOCAL};
+    \node[node, above left=6em and -0.5em of c1, @@COLOUR_VAR@@] (local) {LOCAL};
 
-    \draw[arrow] ([shift={(-3.5em,0)}]remote_container.south)
-    -- node[anchor=east] {\texttt{git clone}}
-    node[anchor=west, text width=13em, align=left] {
+    \draw[arrow, draw=@@COLOUR_VAR@@] ([shift={(-3.5em,0)}]remote_container.south)
+    -- node[anchor=east, @@COLOUR_VAR@@] {\texttt{git clone}}
+    node[anchor=west, text width=13em, align=left, @@COLOUR_VAR@@] {
       \setlength{\leftmargini}{1.5em}
       \begin{itemize}
         \item Copies the remote repo
