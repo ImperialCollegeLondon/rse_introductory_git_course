@@ -137,6 +137,12 @@ As a repository maintainer, there are ways you can encourage and help contributo
 
 You can keep track of recent comments in an issue by subscribing to an issue so that you receive notifications about latest comments and developments in that issue. Notifications and links to issues you're subscribed to can be found on your GitHub dashboard.
 
+::::::::::::::::::::::::::::::::::::::: instructor
+
+- Ask Mentimeter question 8
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: keypoints
 
 - Issues are a feature of GitHub which let you track work in a repository.
