@@ -2,4 +2,4 @@
 title: 'Instructor Notes'
 ---
 
-This is a placeholder file. Please add content here.
+![Mentimeter presentation](fig/mentimeter_qr_code.png){alt='QR code to Mentimeter presentation'}
