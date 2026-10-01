@@ -573,6 +573,14 @@ idea. If we had committed the changes to both `ingredients.md` and
 `instructions.md` at once we would not have been able to revert just the enjoy
 instruction.
 
+::::::::::::::::::::::::::::::::::::::: instructor
+
+- Ask Mentimeter question 3
+- Ask Mentimeter question 4
+- Ask Mentimeter question 5
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: callout
 
 ## The Ultimate Guide to Undoing in Git

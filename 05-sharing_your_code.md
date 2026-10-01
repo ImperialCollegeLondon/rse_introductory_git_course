@@ -20,6 +20,12 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::: instructor
+
+- Ask Mentimeter question 6
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Collaborating: what you need to know?
 
 Often, you will need to share your code with others, either with just another
