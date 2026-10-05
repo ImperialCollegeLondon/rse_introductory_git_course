@@ -70,11 +70,11 @@ teaching style.
 - When doing exercises, put a green sticker in your computer whenever you are done, or a
   pink/orange one if you need support. A helper will go to you.
 - For online sessions, raise your hand if you are done with the exercise and write
- any questions or problems directly into the chat, so a helper can try to solve it.
+  any questions or problems directly into the chat, so a helper can try to solve it.
 
 :::::::::::::::::::::::::::::::::::::::: prereq
 
-Any introductory (graduate school) level programming course
+Any introductory (e.g. [RCDS][rcds-courses]) level programming course
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -84,3 +84,5 @@ Any introductory (graduate school) level programming course
 - Ask questions!
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[rcds-courses]: https://www.imperial.ac.uk/early-career-researcher-institute/learning-and-development/courses-by-programme/research-computing-and-data-science/
