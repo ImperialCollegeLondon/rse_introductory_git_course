@@ -53,7 +53,6 @@ After completing this workshop, you will be better able to
 - Maintain your code repository up to date and in sync with your local copy
 - Manage project action items with GitHub Issues
 - Use a graphical user interface to Git
-- Understand how and where to access support from the Research Computing Service at Imperial College
 
 ## Delivery of the course
 
