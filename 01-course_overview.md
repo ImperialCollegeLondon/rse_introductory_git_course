@@ -53,29 +53,28 @@ After completing this workshop, you will be better able to
 - Maintain your code repository up to date and in sync with your local copy
 - Manage project action items with GitHub Issues
 - Use a graphical user interface to Git
-- Understand how and where to access support from the Research Computing Service at Imperial College
 
 ## Delivery of the course
 
-Material will be delivered as a lecture with tasks for you to complete, following the Carpentries
-teaching style.
+Material will be delivered as a lecture with tasks for you to complete, following the
+Carpentries teaching style.
 
 - The instructor will walk you through the theoretical material of the course,
-  demonstrating the execution of the relevant code and instructions. **You are highly encouraged to
-  code along** and execute the instructions at the same time.
-- Throughout the lessons, there are **yellow boxes** highlighting particularly challenging
-  or important concepts.
-- There are also exercises in **orange boxes**. The instructor will give you time to try
+  demonstrating the execution of the relevant code and instructions. **You are highly
+  encouraged to code along** and execute the instructions at the same time.
+- Throughout the lessons, there are **blue-grey boxes** highlighting particularly
+  challenging or important concepts.
+- There are also exercises in **yellow boxes**. The instructor will give you time to try
   to do them yourself before going through the solution. This is often available in a
-  folded part of the orange box, so you can check it at any time.
-- When doing exercises, put a green sticker in your computer whenever you are done, or a
+  folded part of the yellow box, so you can check it at any time.
+- When doing exercises, put a green sticker on your computer whenever you are done, or a
   pink/orange one if you need support. A helper will go to you.
-- For online sessions, raise your hand if you are done with the exercise and write
- any questions or problems directly into the chat, so a helper can try to solve it.
+- For online sessions, raise your hand if you are done with the exercise and write any
+  questions or problems directly into the chat, so a helper can try to solve it.
 
 :::::::::::::::::::::::::::::::::::::::: prereq
 
-Any introductory (graduate school) level programming course
+Any introductory (e.g. [RCDS][rcds-courses]) level programming course
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -85,3 +84,5 @@ Any introductory (graduate school) level programming course
 - Ask questions!
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[rcds-courses]: https://www.imperial.ac.uk/early-career-researcher-institute/learning-and-development/courses-by-programme/research-computing-and-data-science/
