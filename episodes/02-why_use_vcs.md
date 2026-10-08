@@ -19,6 +19,13 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::: instructor
+
+- Ask Mentimeter question 1
+- Ask Mentimeter question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## The Essence of Version Control
 
 - A system for managing your work (not necessarily just code) which **records
