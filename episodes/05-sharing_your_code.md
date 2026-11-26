@@ -1,7 +1,7 @@
 ---
 title: Sharing your code
-teaching: 10
-exercises: 10
+teaching: 15
+exercises: 15
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
@@ -106,7 +106,7 @@ control the visibility of a repository.
 - The repository is not listed in the GitHub directory neither it is
   discoverable by Google and other search engines.
 - Ideal for testing, for projects with a view on commercialization, preliminary
-  work on future open projects or for school/Msc/PhD projects not meant to be
+  work on future open projects or for school/MSc/PhD projects not meant to be
   public.
 - Free accounts (except if part of an Organisation account) have several
   limitations on the features that a private repository has (eg. fewer
@@ -115,7 +115,7 @@ control the visibility of a repository.
 #### Public repositories
 
 - Anyone can see the repository, clone it and fork it (how it is then used
- depends on the license; see below).
+ depends on the licence; see below).
 - You keep control of who will be able to contribute to the repository.
 - The choice for open source projects and to share your work to a wider
   potential user base.
@@ -156,7 +156,7 @@ your repository:
   detailed instructions described elsewhere.
 - Often includes [badges](https://github.com/badges/shields), providing quick
   information on the status of the documentation, the builds, the software
-  version, license, etc.
+  version, licence, etc.
 - For inspiration see [Solcore](https://github.com/qpv-research-group/solcore5)
 - For further guidance see [Make a README](https://www.makeareadme.com/) or this
   [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
@@ -309,7 +309,7 @@ your project.
 - Private repositories are just for yourself or a reduced set of contributors.
 - README contains a description of the software and, often, some simplified installation instructions.
 - The LICENSE describes how the software must be distributed and used.
-- Using one of the OSI (open source initiative) licenses is recommended if the repository is public.
+- Using one of the OSI (open source initiative) licences is recommended if the repository is public.
 - CONTRIBUTING describes how other users can help develop the software.
 - CITATION helps others to cite your software in their own papers.
 - GitHub can be used to set up a software repository, share your code and manage who can access it, and how.
