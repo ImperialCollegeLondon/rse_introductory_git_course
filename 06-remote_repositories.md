@@ -1,7 +1,7 @@
 ---
 title: Remote repositories
 teaching: 15
-exercises: 20
+exercises: 10
 ---
 
 ::::::::::::::::::::::::::::::::::::: questions
